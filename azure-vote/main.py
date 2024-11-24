@@ -16,7 +16,7 @@ from opencensus.trace import config_integration
 config_integration.trace_integrations(["logging", "requests"])
 
 # Initialize App Insights
-APP_INSIGHTS_CONNECTION_STRING = "InstrumentationKey=0c186bf6-531f-4347-a0ee-856d68349bd1;IngestionEndpoint=https://westus-0.in.applicationinsights.azure.com/;LiveEndpoint=https://westus.livediagnostics.monitor.azure.com/;ApplicationId=3931b2c5-5317-4c0a-9127-a170edf6a231"
+APP_INSIGHTS_CONNECTION_STRING = "InstrumentationKey=994880dc-bfc6-4d66-9335-76665ffd16b4;IngestionEndpoint=https://eastus-8.in.applicationinsights.azure.com/;LiveEndpoint=https://eastus.livediagnostics.monitor.azure.com/;ApplicationId=6fa3ec50-cad6-4a6a-a831-6325c25b5787"
 
 # Logging setup
 logger = logging.getLogger(__name__)
